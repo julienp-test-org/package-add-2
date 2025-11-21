@@ -1,0 +1,2 @@
+[env]
+PULUMI_OPTION_RUNTIME_OPTIONS = 'toolchain=uv'
