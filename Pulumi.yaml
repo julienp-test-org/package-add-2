@@ -8,3 +8,9 @@ config:
   pulumi:tags:
     value:
       pulumi:template: python
+packages:
+  random:
+    source: terraform-provider
+    version: 1.0.1
+    parameters:
+      - opentofu/random
